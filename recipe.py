@@ -2,7 +2,7 @@ import requests
 
 def recipe_search(ingredient):
     app_id = 'laurahill207@hotmail.com'
-    app_key = 'Hector2021'
+    app_key = 'xxxxxxxxx'
     result = requests.get(
 'https://api.edamam.com/search?q={}&app_id={}&app_key={}'.format(ingredient, app_id,app_key)
 )
